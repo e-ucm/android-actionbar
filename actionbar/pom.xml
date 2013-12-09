@@ -38,15 +38,15 @@
         <sourceDirectory>src</sourceDirectory>
         <plugins>
             <plugin>
-                <artifactId>maven-android-plugin</artifactId>
+                <artifactId>android-maven-plugin</artifactId>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
-                <version>2.9.0-beta-2</version>
+                <version>3.8.0</version>
+                <extensions>true</extensions>
                 <configuration>
                     <sdk>
                         <platform>10</platform>
                     </sdk>
                 </configuration>
-                <extensions>true</extensions>
             </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
