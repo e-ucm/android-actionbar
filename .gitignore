@@ -1,8 +1,12 @@
-.settings
-bin
-gen
-target
+# Eclipse
+.project
+.classpath
+.settings/
 
+# Maven
+target/
+
+# Android
 local.properties
 build.xml
 proguard.cfg
