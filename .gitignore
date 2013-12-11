@@ -5,6 +5,10 @@
 
 # Maven
 target/
+bin/
+!bin/empty
+gen/
+!gen/empty
 
 # Android
 local.properties
